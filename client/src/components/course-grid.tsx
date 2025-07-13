@@ -12,23 +12,20 @@ const categoryButtons = [
   { key: 'it', label: 'IT & Computer Science', icon: Laptop }
 ];
 
-// Static course data for the voice counselor
+// Static course data for the voice counselor (exact requirements data)
 const staticCourses: Course[] = [
-  { id: 1, name: "BBA (with industry certificates)", duration: "3 yrs", annualFee: 112000, category: "undergraduate" },
-  { id: 2, name: "BSc IT", duration: "3 yrs", annualFee: 120000, category: "undergraduate" },
-  { id: 3, name: "BCA", duration: "3 yrs", annualFee: 110000, category: "undergraduate" },
-  { id: 4, name: "BSc Computer Science", duration: "3 yrs", annualFee: 115000, category: "undergraduate" },
-  { id: 5, name: "BSc Mathematics", duration: "3 yrs", annualFee: 105000, category: "undergraduate" },
-  { id: 6, name: "BSc Physics", duration: "3 yrs", annualFee: 108000, category: "undergraduate" },
-  { id: 7, name: "MSc Computer Science", duration: "2 yrs", annualFee: 140000, category: "postgraduate" },
-  { id: 8, name: "MSc IT", duration: "2 yrs", annualFee: 135000, category: "postgraduate" },
-  { id: 9, name: "MSc Mathematics", duration: "2 yrs", annualFee: 125000, category: "postgraduate" },
-  { id: 10, name: "MSc Physics", duration: "2 yrs", annualFee: 130000, category: "postgraduate" },
-  { id: 11, name: "MCA", duration: "3 + 1 yrs", annualFee: 145000, category: "postgraduate" },
-  { id: 12, name: "MBA (Digital Marketing)", duration: "2 yrs", annualFee: 180000, category: "postgraduate" },
-  { id: 13, name: "Certificate in Web Development", duration: "6 months", annualFee: 50000, category: "certificate" },
-  { id: 14, name: "Certificate in Data Science", duration: "8 months", annualFee: 60000, category: "certificate" },
-  { id: 15, name: "Certificate in AI/ML", duration: "10 months", annualFee: 70000, category: "certificate" }
+  { id: 1, name: "BSc IT (with industry certificates)", duration: "3 yrs", annualFee: 112000, category: "undergraduate" },
+  { id: 2, name: "BCA (with industry certificates)", duration: "3 yrs", annualFee: 112000, category: "undergraduate" },
+  { id: 3, name: "BBA (with industry certificates)", duration: "3 yrs", annualFee: 112000, category: "undergraduate" },
+  { id: 4, name: "MSc IT (with industry certificates)", duration: "2 yrs", annualFee: 112000, category: "postgraduate" },
+  { id: 5, name: "BCom (with industry certificates)", duration: "3 yrs", annualFee: 83000, category: "undergraduate" },
+  { id: 6, name: "BCom (without certificates)", duration: "3 yrs", annualFee: 64000, category: "undergraduate" },
+  { id: 7, name: "BCom (Hons) (with industry certificates)", duration: "3 yrs", annualFee: 90000, category: "undergraduate" },
+  { id: 8, name: "BA (Hons) Journalism & Mass Com (no certificates)", duration: "3 yrs", annualFee: 53000, category: "undergraduate" },
+  { id: 9, name: "BA (Hons) Journalism & Mass Com (with AI/ML certificates)", duration: "3 yrs", annualFee: 70000, category: "undergraduate" },
+  { id: 10, name: "BSc Animation (with AI/ML certificates)", duration: "3 yrs", annualFee: 100000, category: "undergraduate" },
+  { id: 11, name: "BHM", duration: "3 + 1 yrs", annualFee: 83000, category: "undergraduate" },
+  { id: 12, name: "BLIS", duration: "1 yr", annualFee: 43000, category: "certificate" }
 ];
 
 export function CourseGrid() {
