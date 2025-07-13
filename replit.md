@@ -79,13 +79,7 @@ User requested: Simple voice agent using Vapi without database complexity.
 
 ### Environment Variables Required
 - `VITE_VAPI_PUBLIC_KEY`: Vapi.ai public API key (bdc47639-21e8-4208-9330-fef67b130b0b)
-- `VITE_VAPI_ASSISTANT_ID`: Vapi.ai assistant configuration ID (0456b8a7-e22e-40f7-b7be-d83df60e3635)
-
-### Current Issue
-The assistant ID provided (0456b8a7-e22e-40f7-b7be-d83df60e3635) doesn't exist in your Vapi dashboard. You'll need to:
-1. Create a new assistant in your Vapi dashboard
-2. Use the correct assistant ID
-3. Or use the assistant creation API to create one programmatically
+- `VITE_VAPI_ASSISTANT_ID`: Vapi.ai assistant configuration ID (eb81cbd4-0f61-4e08-a113-9a770881c505)
 
 ### Key Architectural Decisions
 

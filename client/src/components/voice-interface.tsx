@@ -119,7 +119,7 @@ export function VoiceInterface() {
       setCallStatus('connecting');
       
       // Use the assistant ID directly
-      const assistantId = "0456b8a7-e22e-40f7-b7be-d83df60e3635";
+      const assistantId = "eb81cbd4-0f61-4e08-a113-9a770881c505";
       await vapiRef.current.start(assistantId);
       
     } catch (error) {
