@@ -125,7 +125,10 @@ export function VoiceInterface() {
           model: "gpt-4o",
           temperature: 0.3,
           maxTokens: 300,
-          systemMessage: `You are a friendly and professional university admissions counselor. Your role is to help prospective students with course information, fees, and scholarship details.
+          messages: [
+            {
+              role: "system",
+              content: `You are a friendly and professional university admissions counselor. Your role is to help prospective students with course information, fees, and scholarship details.
 
 IMPORTANT GUIDELINES:
 - Keep responses concise (2-3 sentences max) for voice conversations
@@ -158,9 +161,11 @@ CONVERSATION FLOW:
 4. Handle follow-up questions about master's programs, fees, or durations
 5. Offer scholarship information (20% available on all courses)
 6. Ask if they need more information`
+            }
+          ]
         },
         voice: {
-          provider: "elevenlabs",
+          provider: "11labs",
           voiceId: "21m00Tcm4TlvDq8ikWAM"
         },
         firstMessage: "Hello! I'm your university admissions counselor. I can help you learn about our courses, fees, and scholarship opportunities. What would you like to know?",
